@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body style="background-color:pink;padding-left: 5%;">
+    <!-- Create a Login page -->
+    <center><h2>Login Page</h2></center>
+    <form action="login.php" method="post">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required><br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Refresh"><br><br>
+        <style>
+            button a {
+                text-decoration: none;
+            }
+        </style>
+        <button><a href="forgot.html">Forgot Password</a></button>
+    </form>
+</body>
+</html>

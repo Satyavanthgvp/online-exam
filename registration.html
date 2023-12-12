@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body style="background-color:pink;padding-left: 5%;">
+    <center><h2>Register Here</h2></center>
+    <!-- create a registration form -->
+    <form action="registration.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required><br><br>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" name="cpassword" id="cpassword" placeholder="Confirm your password" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" required><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other" required>
+        <label for="other">Other</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Refresh">
+    </form>
+        
+
+    </form>
+</body>
+</html>
